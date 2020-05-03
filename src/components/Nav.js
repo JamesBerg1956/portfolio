@@ -6,9 +6,19 @@ function Nav(){
     const location = useLocation();
 
     return(
-        <div>
-            Nav.js
-        </div>
+        <ul>
+            <li>
+                <Link to="/About">
+                    About
+                </Link>
+                <Link to="/Portfolio">
+                    Portfolio
+                </Link>
+                <Link to="/Contact">
+                    Contact
+                </Link>
+            </li>
+        </ul>
     );
 
 }
