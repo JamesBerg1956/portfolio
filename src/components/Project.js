@@ -6,8 +6,9 @@ import Col from "react-bootstrap/Col";
 import CodeQuizPNG from "../assets/CodeQuiz.PNG";
 import CompareDevTopicsPNG from "../assets/CompareDevTopics.PNG";
 import MyLibraryPNG from "../assets/MyLibrary.PNG";
-import RewardsPNG from "../assets/CodeQuiz.PNG";
+import RewardsProgramPNG from "../assets/RewardProgram.PNG";
 import WeatherDashboardPNG from "../assets/WeatherDashboard.PNG";
+import NoteTakerPNG from "../assets/NoteTaker.PNG";
 
 function Project(){
 
@@ -19,23 +20,23 @@ function Project(){
                     <Image src={CompareDevTopicsPNG} rounded />
                 </Col>
                 <Col md={12} lg={6}>
-                    
+                    <Image src={CodeQuizPNG} rounded />
                 </Col>
             </Row>
             <Row>
                 <Col md={12} lg={6}>
-
+                    <Image src={MyLibraryPNG} rounded />
                 </Col>
                 <Col md={12} lg={6}>
-                    
+                    <Image src={RewardsProgramPNG} rounded />
                 </Col>
             </Row>
             <Row>
                 <Col md={12} lg={6}>
-
+                    <Image src={WeatherDashboardPNG} rounded />
                 </Col>
                 <Col md={12} lg={6}>
-                    
+                    <Image src={NoteTakerPNG} rounded />
                 </Col>
             </Row>
         </Container>
