@@ -1,12 +1,11 @@
 import React from "react";
+import Project from "../Project.js"
 
 function Project(){
 
     return(
 
-        <div>
-            Project.js
-        </div>
+        <Project />
 
     );
 
