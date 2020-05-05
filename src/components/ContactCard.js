@@ -4,6 +4,7 @@ import ListGroup from "react-bootstrap/ListGroup";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import logo from "../assets/logo.jpg";
 
 function ContactCard(){
 
@@ -13,7 +14,7 @@ function ContactCard(){
             <Row>
                 <Col>
                     <Card style={{ width:"20rem" }}>
-                        <Card.Img variant="top" src="https://via.placeholder.com/150" />
+                        <Card.Img variant="top" src={logo} alt="James Berg" />
                         <Card.Body>
                             <Card.Title>James Berg</Card.Title>
                             <Card.Text>
